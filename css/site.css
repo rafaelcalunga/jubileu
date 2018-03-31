@@ -157,3 +157,23 @@ footer img {
     width: 80px;
     height: 80px;
 }
+
+#social-networks {
+    background-color: #CF4A46;
+    color: #ff8e98;
+    padding: 10px 0;
+}
+
+#social-networks .col {
+    padding: 0;
+}
+
+#social-networks .col p {
+    padding-top: 8px;
+}
+
+#social-networks .col a {
+    color: #FFF;
+    font-size: 25px;
+    margin-right: 5px;
+}
