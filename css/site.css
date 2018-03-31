@@ -4,28 +4,22 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
 }
 
-nav {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+.bg-dark {
+    background-color: rgba(0, 0, 0, .85) !important;
+    -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+    backdrop-filter: saturate(180%) blur(20px) !important;
 }
 
-nav a {
-    color: #999;
-    transition: ease-in-out color .15s;
-}
-
-nav a:hover {
-    color: #fff;
-    text-decoration: none;
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #CF4A46;
 }
 
 section {
-	padding: 30px 0;
+	padding: 60px 0 80px 0;
 }
 
 section .section-title {
-    padding: 20px 0 30px 0;
+    padding-bottom: 30px;
 }
 
 section h1.title {
@@ -56,6 +50,7 @@ section .col {
 /*-------------------- carrocel --------------------*/
 #carrocel {
     padding-top: 0px;
+    height: 600px;
 }
 
 #carrocel .container-fluid {
