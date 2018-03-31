@@ -1,0 +1,159 @@
+/*-------------------- general --------------------*/
+body {
+    background-color: #fff;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+nav a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+	padding: 30px 0;
+}
+
+section .section-title {
+    padding: 20px 0 30px 0;
+}
+
+section h1.title {
+    text-align: center;
+}
+
+section .subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Crimson Text',serif;
+    color: #888;
+    font-style: italic;
+    text-transform: initial;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+section img.rounded {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+section .col {
+	padding-bottom: 20px;
+}
+
+/*-------------------- carrocel --------------------*/
+#carrocel {
+    padding-top: 0px;
+}
+
+#carrocel .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#carrocel img {
+    height: 600px;
+    object-fit: cover;
+}
+
+/*-------------------- pastores --------------------*/
+#pastor-01 {
+    background-color: #fafafa;
+}
+
+/*-------------------- evento --------------------*/
+#evento {
+    background-color: #34373e;
+}
+
+#evento h1,
+#evento h2 {
+    color: #fff;
+}
+
+#evento p {
+    color: #898989;
+}
+
+#evento .col {
+    text-align: center;
+}
+
+.data {
+    box-sizing: border-box;
+    width: 114px;
+    height: 114px;
+    background: url('../images/date-bg.svg');
+    text-align: center;
+    margin: auto;
+}
+
+.dia {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.mes {
+    font-size: 16px;
+    line-height: 1;
+}
+
+/*-------------------- preletores --------------------*/
+#preletores {
+    text-align: center;
+}
+
+#preletores h4 {
+    padding: 10px;
+}
+
+#preletores img {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/*-------------------- footer --------------------*/
+footer {
+    background-color: #1B2125;
+    padding: 25px 0 50px 0;
+}
+
+footer i {
+    color: #cf4a46;
+}
+
+footer h3, footer p {
+    color: #fff;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer a {
+    color: #898989;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
