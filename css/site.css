@@ -5,7 +5,7 @@ body {
 }
 
 .bg-dark {
-    background-color: rgba(0, 0, 0, .85) !important;
+    background-color: rgba(0, 0, 0, .80) !important;
     -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
     backdrop-filter: saturate(180%) blur(20px) !important;
 }
@@ -45,6 +45,20 @@ section img.rounded {
 
 section .col {
 	padding-bottom: 20px;
+}
+
+/*-------------------- button --------------------*/
+.btn-outline-danger {
+    color: #CF4A46;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CF4A46;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #CF4A46;
+    border-color: #CF4A46;
 }
 
 /*-------------------- carrocel --------------------*/
@@ -130,6 +144,7 @@ footer {
 
 footer i {
     color: #cf4a46;
+    margin-right: 5px;
 }
 
 footer h3, footer p {
@@ -137,7 +152,7 @@ footer h3, footer p {
 }
 
 footer ul li {
-    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 footer a {
