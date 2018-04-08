@@ -92,6 +92,32 @@ section .col {
     object-fit: cover;
 }
 
+/*-------------------- igrejas --------------------*/
+
+#nossas-igrejas {
+    text-align: center;
+    color: #fff;
+    background-color: #34373e;
+    padding: 60px 0 40px 0;
+}
+
+#nossas-igrejas .col-6 {
+    margin-bottom: 1rem;
+}
+
+#nossas-igrejas img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, .25);
+}
+
+#nossas-igrejas img:hover {
+    border-color: #cf4a46;
+}
+
 /*-------------------- historia --------------------*/
 #nossa-historia,
 #pastor-02 {
