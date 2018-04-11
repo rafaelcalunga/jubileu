@@ -31,6 +31,7 @@ section img.rounded {
     height: 300px;
     object-fit: cover;
     width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 section .col {
@@ -63,7 +64,15 @@ section .col {
 .navbar-dark .navbar-nav .nav-link.show, 
 .navbar-dark .navbar-nav .show > .nav-link {
     color: #cf4a46;
-    border-bottom-color: #cf4a46;
+}
+
+@media (min-width: 992px) {
+    .navbar-dark .navbar-nav .active > .nav-link, 
+    .navbar-dark .navbar-nav .nav-link.active, 
+    .navbar-dark .navbar-nav .nav-link.show, 
+    .navbar-dark .navbar-nav .show > .nav-link {
+        border-bottom-color: #cf4a46;
+    }
 }
 
 /*-------------------- button --------------------*/
@@ -141,7 +150,9 @@ section .col {
 }
 
 #evento h1,
-#evento h2 {
+#evento h2,
+#evento h3,
+#evento h4 {
     color: #fff;
 }
 
