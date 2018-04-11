@@ -165,4 +165,8 @@
             left: -14px;
             right: auto;
         }
+
+        ul.timeline > li > .timeline-panel img {
+            height: 150px;
+        }
 }
