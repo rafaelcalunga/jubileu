@@ -37,6 +37,10 @@ section .col {
 	padding-bottom: 20px;
 }
 
+.modal-body p {
+    text-align: justify;
+}
+
 /*-------------------- navbar --------------------*/
 .bg-dark {
     background-color: rgba(0, 0, 0, .80) !important;

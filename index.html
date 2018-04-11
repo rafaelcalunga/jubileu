@@ -19,6 +19,9 @@
 </head>
 
 <body data-spy="scroll">
+
+    <!-- Menu -->
+
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +54,8 @@
             </div>
         </div>
     </nav>
+
+    <!-- Carrocel -->
 
     <section id="carrocel">
         <div class="container-fluid">
@@ -87,6 +92,8 @@
         </div>
     </section>
 
+    <!-- Nossa Igreja -->
+
     <section id="nossa-igreja">
         <div class="container">
             <div class="section-title">
@@ -97,7 +104,7 @@
                 <div class="col-12 col-md-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non fringilla lorem. Nullam vel consectetur velit. Aliquam sed metus justo. Donec ut risus lacinia, efficitur ligula eu, tempus ante. Duis elementum in nisi ut iaculis. Curabitur tincidunt urna at lacus pulvinar, sit amet rutrum sem fringilla. Integer ut nisi sit amet mi accumsan imperdiet et vel orci. Integer ullamcorper suscipit neque, quis sodales justo malesuada quis. Vivamus vel convallis metus. Praesent massa ligula, elementum a ligula accumsan, vestibulum eleifend justo. Nulla at ipsum vel neque lacinia mollis sit amet vel magna. Phasellus id neque tellus. Nunc fringilla sodales magna, vel pharetra metus porttitor non. Sed odio libero, pretium eu posuere vitae, mollis vel quam. Sed facilisis vel odio eu convallis.</p>
                     <p>
-                        <button type="button" class="btn btn-outline-danger">LEIA MAIS</button>
+                        <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#nossa-igreja-modal">LEIA MAIS</button>
                     </p>
                 </div>
                 <div class="col-12 order-first col-md-6 order-md-last">
@@ -108,6 +115,25 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="nossa-igreja-modal" tabindex="-1" role="dialog" aria-labelledby="nossa-igreja-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="nossa-igreja-modal-label">NOSSA IGREJA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non fringilla lorem. Nullam vel consectetur velit. Aliquam sed metus justo. Donec ut risus lacinia, efficitur ligula eu, tempus ante. Duis elementum in nisi ut iaculis. Curabitur tincidunt urna at lacus pulvinar, sit amet rutrum sem fringilla. Integer ut nisi sit amet mi accumsan imperdiet et vel orci. Integer ullamcorper suscipit neque, quis sodales justo malesuada quis. Vivamus vel convallis metus. Praesent massa ligula, elementum a ligula accumsan, vestibulum eleifend justo. Nulla at ipsum vel neque lacinia mollis sit amet vel magna. Phasellus id neque tellus. Nunc fringilla sodales magna, vel pharetra metus porttitor non. Sed odio libero, pretium eu posuere vitae, mollis vel quam. Sed facilisis vel odio eu convallis.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="nossas-igrejas">
         <div class="container">
@@ -191,6 +217,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Nossa História -->
 
     <section id="nossa-historia">
         <div class="container">
@@ -283,37 +311,64 @@
         </div>
     </section>
 
+    <!-- Pastor Espedito -->
+
     <section id="pastor-01">
         <div class="container">
             <div class="section-title">
                 <h1 class="title">PASTOR ESPEDITO</h1>
-                <h6 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                <h6 class="subtitle">Conheça a biografia do nosso pastor</h6>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <img src="images/espedito-coelho.jpg" class="rounded" alt="">
                 </div>
                 <div class="col-12 col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non fringilla lorem. Nullam vel consectetur velit. Aliquam sed metus justo. Donec ut risus lacinia, efficitur ligula eu, tempus ante. Duis elementum in nisi ut iaculis. Curabitur tincidunt urna at lacus pulvinar, sit amet rutrum sem fringilla. Integer ut nisi sit amet mi accumsan imperdiet et vel orci. Integer ullamcorper suscipit neque, quis sodales justo malesuada quis. Vivamus vel convallis metus. Praesent massa ligula, elementum a ligula accumsan, vestibulum eleifend justo. Nulla at ipsum vel neque lacinia mollis sit amet vel magna. Phasellus id neque tellus. Nunc fringilla sodales magna, vel pharetra metus porttitor non. Sed odio libero, pretium eu posuere vitae, mollis vel quam. Sed facilisis vel odio eu convallis.</p>
+                    <p>Ministro do Evangelho. Filho de   Raimundo Coelho e Adelina Maria Coelho. Nascido em 19/06/1952, na cidade de Piancó, estado da Paraíba.</p>
+                    <p>Espedito Coelho é Bacharel em Teologia pela Faculdade Teológica de Ciências Humanas e Sociais Logos – FAETEL. Pastor presidente do campo eclesiástico de Coxim, Pedro Gomes e Alcinópolis da Igreja Evangélica Assembleia de Deus Ministério Belém-Missões. Membro da Convenção Geral das Assembleias de Deus no Brasil – CGADB; membro fundador e atualmente o 2º vice-presidente da Convenção de Ministros das Assembleias de Deus no Estado de Mato Grosso do Sul – COMADEMS. Tem formação seminarista no Seminário Bíblico e Teológico da Escola de Teologia Pastor Cícero Canuto de Lima, Administração de Núcleos, Monitoria e Evangelismo Pessoal, no Instituto Bernhard Johnson - EETAD.</p>
                     <p>
-                        <button type="button" class="btn btn-outline-danger">LEIA MAIS</button>
+                        <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#pastor-01-modal">LEIA MAIS</button>
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="modal fade" id="pastor-01-modal" tabindex="-1" role="dialog" aria-labelledby="pastor-01-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pastor-01-modal-label">BIOGRAFIA DO PASTOR ESPEDITO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ministro do Evangelho. Filho de   Raimundo Coelho e Adelina Maria Coelho. Nascido em 19/06/1952, na cidade de Piancó, estado da Paraíba.</p>
+                    <p>Espedito Coelho é Bacharel em Teologia pela Faculdade Teológica de Ciências Humanas e Sociais Logos – FAETEL. Pastor presidente do campo eclesiástico de Coxim, Pedro Gomes e Alcinópolis da Igreja Evangélica Assembleia de Deus Ministério Belém-Missões. Membro da Convenção Geral das Assembleias de Deus no Brasil – CGADB; membro fundador e atualmente o 2º vice-presidente da Convenção de Ministros das Assembleias de Deus no Estado de Mato Grosso do Sul – COMADEMS. Tem formação seminarista no Seminário Bíblico e Teológico da Escola de Teologia Pastor Cícero Canuto de Lima, Administração de Núcleos, Monitoria e Evangelismo Pessoal, no Instituto Bernhard Johnson - EETAD.</p>
+                    <p>Espedito Coelho chegou ao estado de Mato Grosso em 1957, radicando-se na Colônia Agrícola da Grande Dourados. Tornou-se evangélico no ano de 1967. Mudou-se para a cidade de Campo Grande no ano de 1975. Foi ordenado a pastor em 29 de setembro de 1982 pelo ministério do Belém da Igreja Evangélica Assembleia de Deus, em São Paulo. Pastoreou congregações desta igreja durante nove anos nos Bairros Piratininga, Santa Branca, Tiradentes e Guanandi na cidade de Campo Grande. Em 1984 foi designado Pastor da Igreja Evangélica Assembleia de Deus no município de Coxim MS quando fixou residência nesta cidade. Em 1987 pastoreou a igreja Assembleia de Deus no campo eclesiástico de Aquidauana e Anastácia; em 1989 retornou a cidade de Coxim para pastorear a mesma igreja, até a atualidade, perfazendo 33 anos de ministério nestes dois campos eclesiásticos.</p>
+                    <p>Foi vice-presidente da Convenção Estadual das Igrejas Assembléias de Deus de Mato Grosso do Sul, e também Segundo-Secretário no período de 1992 a 1994. Sócio Fundador da ASSISTE - Assistência Social e Cultu¬ral da Assembléia de Deus de Campo Grande – MS; Sócio Fundador e Diretor-presidente da Associação Evangélica Beneficente - AEB em Coxim. Recebeu o título de Cidadão Coxinense, através do Decreto Legislativo nº 002/96.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pastor Edson -->
+
     <section id="pastor-02">
         <div class="container">
             <div class="section-title">
                 <h1 class="title">PASTOR EDSON</h1>
-                <h6 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                <h6 class="subtitle">Conheça a biografia do nosso pastor</h6>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non fringilla lorem. Nullam vel consectetur velit. Aliquam sed metus justo. Donec ut risus lacinia, efficitur ligula eu, tempus ante. Duis elementum in nisi ut iaculis. Curabitur tincidunt urna at lacus pulvinar, sit amet rutrum sem fringilla. Integer ut nisi sit amet mi accumsan imperdiet et vel orci. Integer ullamcorper suscipit neque, quis sodales justo malesuada quis. Vivamus vel convallis metus. Praesent massa ligula, elementum a ligula accumsan, vestibulum eleifend justo. Nulla at ipsum vel neque lacinia mollis sit amet vel magna. Phasellus id neque tellus. Nunc fringilla sodales magna, vel pharetra metus porttitor non. Sed odio libero, pretium eu posuere vitae, mollis vel quam. Sed facilisis vel odio eu convallis.</p>
                     <p>
-                        <button type="button" class="btn btn-outline-danger">LEIA MAIS</button>
+                        <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#pastor-02-modal">LEIA MAIS</button>
                     </p>
                 </div>
                 <div class="col-12 order-first col-md-6 order-md-last">
@@ -322,6 +377,27 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="pastor-02-modal" tabindex="-1" role="dialog" aria-labelledby="pastor-02-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pastor-02-modal-label">BIOGRAFIA DO PASTOR EDSON</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non fringilla lorem. Nullam vel consectetur velit. Aliquam sed metus justo. Donec ut risus lacinia, efficitur ligula eu, tempus ante. Duis elementum in nisi ut iaculis. Curabitur tincidunt urna at lacus pulvinar, sit amet rutrum sem fringilla. Integer ut nisi sit amet mi accumsan imperdiet et vel orci. Integer ullamcorper suscipit neque, quis sodales justo malesuada quis. Vivamus vel convallis metus. Praesent massa ligula, elementum a ligula accumsan, vestibulum eleifend justo. Nulla at ipsum vel neque lacinia mollis sit amet vel magna. Phasellus id neque tellus. Nunc fringilla sodales magna, vel pharetra metus porttitor non. Sed odio libero, pretium eu posuere vitae, mollis vel quam. Sed facilisis vel odio eu convallis.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Evento -->
 
     <section id="evento">
         <div class="container">
@@ -394,6 +470,8 @@
         </div>
     </section>
 
+    <!-- Preletores -->
+
     <section id="preletores">
         <div class="container">
             <div class="section-title">
@@ -425,6 +503,8 @@
         </div>
     </section>
 
+    <!-- Footer -->
+
     <footer>
         <div class="container">
             <div class="row">
@@ -432,8 +512,7 @@
                     <p>
                         <img src="images/Assembleia de Deus.png" alt="">
                     </p>
-                    <p>Assembéia de Deus em Coxim
-                        <br>Ministério Belém</p>
+                    <p>Assembéia de Deus em Coxim<br>Ministério Belém</p>
                 </div>
                 <div class="col-12 col-md-3">
                     <h3>Contate-nos</h3>
@@ -450,18 +529,13 @@
                             <a href="http://maps.apple.com/?ll=-18.511637,-54.756849&z=18&t=m" title="Traçar rota até a igreja">
                                 <i class="fa fa-map-marker"></i>R. Filinto Müller, 1887 - Jardim Alvorada, Coxim - MS, 79400-000</a>
                         </li>
-
-
                     </ul>
                 </div>
                 <div class="col-12 col-md-3">
                     <h3>Links úteis</h3>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#">História da Igreja</a>
-                        </li>
-                        <li>
-                            <a href="#">Estatuto da Igreja</a>
+                            <a href="pdf/estatuto_para_igreja.pdf" target="_blank">Estatuto da Igreja</a>
                         </li>
                         <li>
                             <a href="#">Lorem ipsum</a>
