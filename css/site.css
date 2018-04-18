@@ -152,7 +152,8 @@ section .col {
 #evento h1,
 #evento h2,
 #evento h3,
-#evento h4 {
+#evento h4,
+#evento h5 {
     color: #fff;
 }
 
@@ -250,4 +251,5 @@ footer img {
     color: #FFF;
     font-size: 25px;
     margin-right: 5px;
+    text-decoration: none;
 }
