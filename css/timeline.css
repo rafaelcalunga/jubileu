@@ -116,6 +116,7 @@
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    font-size: 1.3em;
 }
 
 .timeline-body > p,
