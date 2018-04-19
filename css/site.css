@@ -201,6 +201,10 @@ section .col {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
+.cidade {
+    color: #aaa;
+}
+
 /*-------------------- footer --------------------*/
 footer {
     background-color: #1B2125;
