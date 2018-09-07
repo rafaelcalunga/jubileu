@@ -2,4 +2,4 @@
 
 Igreja Evangélica Assembléia de Deus - Coxim
 
-Site do Jubileu.
+[http://ieadcoxim.org](http://ieadcoxim.org)
